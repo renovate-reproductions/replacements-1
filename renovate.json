@@ -1,0 +1,11 @@
+{
+  "packageRules": [
+     {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@emotion/core"],
+      "matchCurrentVersion": ">=11.0.0",
+      "replacementName": "@emotion/react",
+      "replacementVersion": "11.0.0"
+    }
+  ]
+}
